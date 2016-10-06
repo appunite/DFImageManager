@@ -56,5 +56,11 @@ Pod::Spec.new do |s|
         ss.dependency 'DFImageManager/Core'
         ss.dependency 'libwebp'
         ss.source_files = 'Pod/Source/WebP/**/*.{h,m}'
+        ss.xcconfig = { 
+            'USER_HEADER_SEARCH_PATHS' => '$(inherited) $(SRCROOT)/libwebp/src'
+        }
+        ss.watchos.xcconfig = {
+            'USER_HEADER_SEARCH_PATHS' => '$(inherited) $(SRCROOT)/libwebp/src'
+        }
     end
 end
