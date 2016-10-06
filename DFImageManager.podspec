@@ -59,8 +59,5 @@ Pod::Spec.new do |s|
         ss.xcconfig = { 
             'USER_HEADER_SEARCH_PATHS' => '$(inherited) $(SRCROOT)/libwebp/src'
         }
-        ss.watchos.xcconfig = {
-            'USER_HEADER_SEARCH_PATHS' => '$(inherited) $(SRCROOT)/libwebp/src'
-        }
     end
 end
