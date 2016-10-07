@@ -54,10 +54,7 @@ Pod::Spec.new do |s|
         ss.ios.deployment_target = '8.0'
         ss.prefix_header_contents = '#define DF_SUBSPEC_WEBP_ENABLED 1'
         ss.dependency 'DFImageManager/Core'
-        ss.dependency 'libwebp'
+        ss.dependency 'libwebp/webp'
         ss.source_files = 'Pod/Source/WebP/**/*.{h,m}'
-        ss.xcconfig = { 
-            'USER_HEADER_SEARCH_PATHS' => '$(inherited) $(SRCROOT)/libwebp/src'
-        }
     end
 end
