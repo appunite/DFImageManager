@@ -12,3 +12,4 @@ FOUNDATION_EXPORT const unsigned char DFImageManagerVersionString[];
 
 #import "DFImageManagerKit.h"
 #import "DFImageManagerKit+UI.h"
+#import "DFImageManagerKit+WebP"
