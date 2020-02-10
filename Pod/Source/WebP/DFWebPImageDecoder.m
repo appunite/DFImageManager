@@ -3,7 +3,7 @@
 // Copyright (c) 2015 Alexander Grebenyuk (github.com/kean).
 
 #import "DFWebPImageDecoder.h"
-#import <libwebp/decode.h>
+#import "decode.h"
 
 @implementation DFWebPImageDecoder
 
