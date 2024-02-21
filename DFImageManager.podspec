@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = 'DFImageManager'
-    s.version      = '2.0.1'
+    s.version      = '2.0.2'
     s.summary      = 'Advanced framework for managing images. Zero config, yet immense customization.'
     s.description = <<-DESC
                     Advanced framework for loading, caching, processing, displaying and preheating images. DFImageManager is a pipeline that loads images using multiple dependencies which can be injected in runtime. It features optional AFNetworking, FLAnimatedImage and WebP integration.
@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
     s.social_media_url   = 'https://twitter.com/a_grebenyuk'
     s.ios.deployment_target = '8.0'
     s.watchos.deployment_target = '2.0'
-    s.source       = { :git => 'https://github.com/kean/DFImageManager.git', :tag => s.version.to_s }
+    s.source       = { :git => 'https://github.com/appunite/DFImageManager.git', :tag => s.version.to_s }
     s.requires_arc = true
     s.default_subspecs = 'Core', 'UI'
 
