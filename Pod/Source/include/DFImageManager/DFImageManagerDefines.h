@@ -1,0 +1,1 @@
+../../Core/Support/DFImageManagerDefines.h

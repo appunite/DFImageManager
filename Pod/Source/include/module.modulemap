@@ -1,0 +1,5 @@
+module DFImageManager {
+    umbrella "DFImageManager"
+    export *
+    module * { export * }
+}
