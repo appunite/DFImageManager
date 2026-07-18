@@ -1,0 +1,1 @@
+../../Core/Protocols/DFImageFetching.h
